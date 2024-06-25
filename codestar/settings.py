@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-%#jtzz$7jl+j99dd2r8aknroa7q2$6q)zp2!-x(!y9th(xum6-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-xttrust-djangoblog-fjn3e4t8juo.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = [
+    '8000-xttrust-djangoblog-fjn3e4t8juo.ws.codeinstitute-ide.net', 
+    '.herokuapp.com'
+    ]
 
 
 # Application definition
